@@ -1,0 +1,74 @@
+<plugin>
+
+
+
+<deckzone>
+     <label>Deck</label>
+     <gamezonetoloadto>Deck</gamezonetoloadto>
+     <shuffle>yes</shuffle>
+</deckzone>
+
+<gamezone>
+     <label>Hand</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+</gamezone>
+
+<gamezone>
+     <label>Deck</label>
+     <visibletoowner>no</visibletoowner>
+     <visibletoothers>no</visibletoothers>
+</gamezone>
+
+<gamezone>
+     <label>Discard</label>
+     <visibletoowner>yes</visibletoowner>
+     <visibletoothers>yes</visibletoothers>
+     <isshared>no</isshared>
+</gamezone>
+
+<phase><label>Data Input Phase</label></phase>
+<phase><label>Program Execute Phase</label></phase>
+<phase><label>Game Grid Phase</label></phase>
+<phase><label>System Escape Phase</label></phase>
+<phase><label>User Interface Phase</label></phase>
+<phase><label>File Transfer Phase</label></phase>
+<phase><label>Program Delete Phase</label></phase>
+<phase><label>Sub-Routine Phase</label></phase>
+
+<generalfunction>
+	<label>Draw card</label>
+	<kind>DRAWCARD</kind>
+	<includeasbutton>yes</includeasbutton>
+</generalfunction>
+
+
+
+<generalfunction>
+	<label>Previous Phase</label>
+	<kind>PREVIOUSPHASE</kind>
+	<includesbutton>yes</includesbutton>
+</generalfunction>
+<generalfunction>
+	<label>Next Phase</label>
+	<kind>NEXTPHASE</kind>
+	<includesbutton>yes</includesbutton>
+</generalfunction>
+<generalfunction>
+	<label>Previous Turn</label>
+	<kind>PREVIOUSTURN</kind>
+	<includesbutton>yes</includesbutton>
+</generalfunction>
+<generalfunction>
+	<label>Next Turn</label>
+	<kind>NEXTTURN</kind>
+	<includesbutton>yes</includesbutton>
+</generalfunction>
+
+<cardfunction><label>Turn Over</label><kind>TURNOVER</kind></cardfunction>
+
+<definition>
+	<kind>ISALLOWINGMULTIPLECARDBACKS</kind>
+</definition>
+
+</plugin>
