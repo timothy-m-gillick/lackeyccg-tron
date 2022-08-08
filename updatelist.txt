@@ -1,0 +1,5 @@
+Tron	08-03-22
+plugins/Tron/plugininfo.txt	https://github.com/timothy-m-gillick/lackeyccg-tron/raw/main/plugininfo.txt	154838
+plugins/Tron/sets/setimages/general/cardback.jpg	https://github.com/timothy-m-gillick/lackeyccg-tron/raw/main/cardback.jpg	243176
+CardGeneralURLs:		
+https://drive.google.com/drive/folders/1XU4muEsH9hrfXNQZx3aKSSAxRzpjlnaN?usp=sharing
